@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_home_black_24dp"
+        title="Home" />
+    <tab
+        id="@+id/mylist"
+        icon="@drawable/ic_home_black_24dp"
+        title="Mylist" />
+    <tab
+        id="@+id/trending"
+        icon="@drawable/ic_home_black_24dp"
+        title="Trending" />
+    <tab
+        id="@+id/sort"
+        icon="@drawable/ic_home_black_24dp"
+        title="Sort" />
+    <tab
+        id="@+id/profile"
+        icon="@drawable/ic_home_black_24dp"
+        title="Profile" />
+</tabs>
