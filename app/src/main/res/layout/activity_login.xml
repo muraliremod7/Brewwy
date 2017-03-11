@@ -132,7 +132,7 @@
                     android:layout_height="10dp"/>
                 <EditText
                     android:id="@+id/lemail"
-                    android:backgroundTint="@color/windowBackground"
+                    android:textColor="@color/colorAccent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"/>
@@ -154,7 +154,7 @@
                     android:layout_height="10dp"/>
                 <EditText
                     android:id="@+id/lpassword"
-                    android:backgroundTint="@color/windowBackground"
+                    android:textColor="@color/colorAccent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberPassword"/>

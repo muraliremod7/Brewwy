@@ -18,6 +18,8 @@
             android:layout_above="@+id/bottomBar" />
 
     </android.support.v4.widget.NestedScrollView>
+
+
     <com.roughike.bottombar.BottomBar
         android:id="@+id/bottomBar"
         android:background="#ffff"

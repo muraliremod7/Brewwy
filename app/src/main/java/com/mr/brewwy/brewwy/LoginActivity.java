@@ -24,7 +24,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         lregister.setOnClickListener(this);
         lllogin.setOnClickListener(this);
         llregister.setOnClickListener(this);
-        findViewById(R.id.llogin).setOnClickListener(this);
     }
 
     @Override
@@ -44,6 +43,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.lregister:
                 Intent mainreg = new Intent(LoginActivity.this,RegisterActivity.class);
                 startActivity(mainreg);
+                break;
             case R.id.lllogin:
                 Intent mainnlogin = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(mainnlogin);
@@ -51,6 +51,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.llregister:
                 Intent mainnreg = new Intent(LoginActivity.this,RegisterActivity.class);
                 startActivity(mainnreg);
+                break;
         }
     }
 }
